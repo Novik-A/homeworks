@@ -1,0 +1,37 @@
+.all {
+    margin: 3px 10px;
+    color: lightgreen;
+    width: 100px;
+    display: inline-flex;
+}
+.button, .selected {
+    margin: 3px 5px;
+    width: 60px;
+    font-weight: bold;
+}
+.buttonX {
+    margin: 3px 5px;
+    width: 60px;
+    background-color: crimson;
+    opacity: 0.8;
+}
+
+.high, .middle, .low {
+    margin: 3px 10px;
+    width: 50px;
+    background-color: goldenrod;
+    display: inline-flex;
+    padding: 0 10px;
+}
+.middle {
+    background-color: goldenrod;
+    opacity: 0.8;
+}
+.low {
+    background-color: goldenrod;
+    opacity: 0.5;
+}
+.selected {
+    background-color: lightskyblue;
+    outline: transparent;
+}

@@ -1,0 +1,57 @@
+.chat {
+    display: flex;
+    align-items: flex-end;
+    margin: 30px;
+}
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.angle {
+    width: 25px;
+    height: 25px;
+    background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 25px, rgba(255, 255, 255, 0.75) 0);
+}
+.speech {
+    min-width: 200px;
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 15px 15px 15px 0;
+    padding: 25px;
+    font: 28px sans-serif ;
+}
+/*.speech {*/
+/*    position: relative;*/
+/*    width: 400px;*/
+/*    background-color: rgba(255, 255, 255, 0.95);*/
+/*    border-radius: 15px;*/
+/*    margin: 20px;*/
+/*    padding: 25px;*/
+/*    font: 28px sans-serif ;*/
+/*}*/
+/*.speech:before {*/
+/*    content: ' ';*/
+/*    position: absolute;*/
+/*    width: 0;*/
+/*    height: 0;*/
+/*    left: -25px;*/
+/*    bottom: 0;*/
+/*    border: 25px solid;*/
+/*    border-color: transparent transparent rgba(255, 255, 255, 0.95) transparent;*/
+/*}*/
+.name {
+    color: darkblue;
+    font-weight: bolder;
+}
+.message {
+    color: blueviolet;
+    margin: 15px 0 3px;
+    word-wrap: break-word;
+}
+.time {
+    font-size: 110%;
+    color: rosybrown;
+    display: flex;
+    justify-content: flex-end;
+}
