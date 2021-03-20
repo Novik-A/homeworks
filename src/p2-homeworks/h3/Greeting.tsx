@@ -15,10 +15,10 @@ type GreetingPropsType = {
 const Greeting: React.FC<GreetingPropsType> = (
     {name, setNameCallback, addUser, error, totalUsers, onKeyPressHandler} // деструктуризация пропсов
 ) => {
-    const inputClass = name.trim() ? s.all : s.error; // need to fix with (?:)
+    const inputClass = name.trim() ? s.input : s.errorInput; // need to fix with (?:)
 
     return (
-        <div>
+        <div className={s.greeting}>
             <div>
                 <input
                     value={name}
@@ -27,10 +27,10 @@ const Greeting: React.FC<GreetingPropsType> = (
                     onKeyPress={onKeyPressHandler}
                     className={inputClass}
                 />
-                <div>{error}</div>
+                <div className={s.error}>{error}</div>
             </div>
-            <button onClick={addUser}>add</button>
-            <span>{totalUsers}</span>
+            <button className={s.button} disabled={!name} onClick={addUser}>add</button>
+            <span className={s.count}>{totalUsers}</span>
         </div>
     );
 }
