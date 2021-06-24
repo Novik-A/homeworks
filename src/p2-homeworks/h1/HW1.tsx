@@ -8,7 +8,7 @@ const messageData = {
     time: '22:00',
 }
 const messageData2 = {
-    avatar: 'https://mygamehunter.ru/images/thumbnail/86332/550',
+    avatar: 'https://image.freepik.com/free-vector/samurai-esports-logo-for-your-team_116205-81.jpg',
     name: 'Samurai',
     message: 'I`m fine',
     time: '22:10',

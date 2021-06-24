@@ -1,5 +1,35 @@
-.default {
-
+.btn {
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #3498db;
+    border-radius: 0.6em;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 550;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    transition: all 150ms ease-in-out;
+}
+.btn:hover, .btn:focus {
+    outline: 0;
+}
+.btn:hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+.btn:disabled {
+    color: #707070;
+    cursor: auto;
+    box-shadow: none;
 }
 
 .red {
